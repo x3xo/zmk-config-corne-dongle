@@ -6,8 +6,5 @@ config SHIELD_CORNE_LEFT
     def_bool $(shields_list_contains,corne_left)
 
 config SHIELD_CORNE_RIGHT
-    def_bool $(shields_lconfig SHIELD_CORNE_LEFT
-    def_bool $(shields_list_contains,corne_left)
+    def_bool $(shields_list_contains,corne_right)
 
-config SHIELD_CORNE_RIGHT
-    def_bool $(shields_list_contains,corne_right)ist_contains,corne_right)
